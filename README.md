@@ -21,15 +21,7 @@ backend ou frameworks.
 
 # 🚀 Acessar o Projeto
 
-```{=html}
-<p align="center">
-```
-`<a href="https://htmlpreview.github.io/?https://github.com/KevinSan87/Gerador-de-QR-code/blob/main/index.html">`{=html}
-`<img src="https://img.shields.io/badge/🔗%20Abrir%20Preview%20do%20Projeto-1a73e8?style=for-the-badge&logo=google-chrome&logoColor=white">`{=html}
-`</a>`{=html}
-```{=html}
-</p>
-```
+<p align="center"> <a href="https://htmlpreview.github.io/?https://github.com/KevinSan87/Gerador-de-QR-code/blob/main/index.html"> <img src="https://img.shields.io/badge/🔗%20Abrir%20Preview%20do%20Projeto-1a73e8?style=for-the-badge&logo=google-chrome&logoColor=white"> </a> </p>
 
 ------------------------------------------------------------------------
 
