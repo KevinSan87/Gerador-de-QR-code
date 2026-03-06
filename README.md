@@ -1,64 +1,97 @@
-Gerador de QR Code
+# 📱 Gerador de QR Code
 
-Um gerador de QR Code simples e rápido desenvolvido utilizando HTML, CSS e JavaScript puro.
+![HTML](https://img.shields.io/badge/HTML-5-orange?logo=html5)
+![CSS](https://img.shields.io/badge/CSS-3-blue?logo=css3)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?logo=javascript)
+![Status](https://img.shields.io/badge/status-ativo-brightgreen)
 
-A aplicação permite transformar qualquer URL em um QR Code, possibilitando visualizar, baixar a imagem gerada e manter um histórico das URLs utilizadas diretamente no navegador através do LocalStorage.
+Um **gerador de QR Code simples, rápido e leve**, desenvolvido
+utilizando **HTML, CSS e JavaScript puro**.
 
-O projeto foi desenvolvido com foco em simplicidade, organização do código e funcionamento 100% no lado do cliente, sem necessidade de backend ou frameworks.
+A aplicação permite transformar qualquer **URL em um QR Code**,
+possibilitando visualizar, baixar a imagem gerada e manter um
+**histórico das URLs utilizadas** diretamente no navegador através do
+**LocalStorage**.
 
-🚀 Acessar o Projeto
-<p align="center"> <a href="https://htmlpreview.github.io/?https://github.com/KevinSan87/Gerador-de-QR-code/blob/main/index.html"> <img src="https://img.shields.io/badge/Acessar%20Preview%20do%20Projeto-1a73e8?style=for-the-badge&logo=google-chrome&logoColor=white"> </a> </p>
-✨ Funcionalidades
+O projeto foi desenvolvido com foco em **simplicidade, organização do
+código e funcionamento 100% no lado do cliente**, sem necessidade de
+backend ou frameworks.
 
-🔗 Gerar QR Code a partir de qualquer URL
+------------------------------------------------------------------------
 
-💾 Baixar o QR Code em formato PNG
+# 🚀 Acessar o Projeto
 
-🕘 Histórico automático das URLs geradas
+```{=html}
+<p align="center">
+```
+`<a href="https://htmlpreview.github.io/?https://github.com/KevinSan87/Gerador-de-QR-code/blob/main/index.html">`{=html}
+`<img src="https://img.shields.io/badge/🔗%20Abrir%20Preview%20do%20Projeto-1a73e8?style=for-the-badge&logo=google-chrome&logoColor=white">`{=html}
+`</a>`{=html}
+```{=html}
+</p>
+```
 
-📂 Armazenamento local usando LocalStorage
+------------------------------------------------------------------------
 
-🖱️ Clique em um item do histórico para gerar novamente o QR Code
+# ✨ Funcionalidades
 
-🧹 Opção para limpar o histórico salvo
+-   🔗 Gerar **QR Code a partir de qualquer URL**
+-   💾 **Baixar o QR Code em formato PNG**
+-   🕘 **Histórico automático das URLs geradas**
+-   📂 Armazenamento local usando **LocalStorage**
+-   🖱️ Clique em um item do histórico para **gerar novamente o QR Code**
+-   🧹 Opção para **limpar o histórico salvo**
 
-🛠️ Tecnologias Utilizadas
+------------------------------------------------------------------------
 
-HTML5
+# 🛠️ Tecnologias Utilizadas
 
-CSS3
+-   **HTML5**
+-   **CSS3**
+-   **JavaScript**
+-   **QRCode.js (biblioteca via CDN)**
 
-JavaScript
+------------------------------------------------------------------------
 
-QRCode.js (biblioteca via CDN)
+# 📂 Estrutura do Projeto
 
-📂 Estrutura do Projeto
-Gerador-de-QR-code
-│
-├── index.html   # Estrutura da página
-├── style.css    # Estilização da interface
-├── script.js    # Lógica do gerador de QR Code
-└── README.md
-💻 Como rodar localmente
+    Gerador-de-QR-code
+    │
+    ├── index.html   # Estrutura da página
+    ├── style.css    # Estilização da interface
+    ├── script.js    # Lógica do gerador de QR Code
+    └── README.md
+
+------------------------------------------------------------------------
+
+# 💻 Como rodar localmente
 
 Clone o repositório:
 
+``` bash
 git clone https://github.com/KevinSan87/Gerador-de-QR-code.git
+```
 
 Depois abra o arquivo:
 
-index.html
+    index.html
 
 em qualquer navegador.
 
-📌 Observações
+------------------------------------------------------------------------
 
-Projeto 100% frontend
+# 📌 Observações
 
-Não utiliza frameworks
+-   Projeto **100% frontend**
+-   Não utiliza **frameworks**
+-   Não precisa de **backend**
+-   Funciona totalmente no navegador
 
-Não precisa de backend
+------------------------------------------------------------------------
 
-Funciona totalmente no navegador
+# 👨‍💻 Autor
 
-💻 Projeto desenvolvido para prática de JavaScript, manipulação de DOM e LocalStorage.
+Desenvolvido por **Kevin Santana**
+
+GitHub:\
+https://github.com/KevinSan87
