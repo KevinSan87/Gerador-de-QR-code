@@ -1,0 +1,145 @@
+/* Reset básico */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', -apple-system, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f2f5;
+    color: #1c1e21;
+}
+
+.container {
+    background: #ffffff;
+    padding: 2.5rem;
+    border-radius: 16px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+    width: 100%;
+    max-width: 420px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 1.5rem;
+    font-size: 1.75rem;
+    color: #1a73e8;
+}
+
+.input-group {
+    margin-bottom: 1.5rem;
+}
+
+input {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 0.75rem;
+    border: 2px solid #e4e6eb;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.2s;
+}
+
+input:focus {
+    outline: none;
+    border-color: #1a73e8;
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: all 0.2s;
+}
+
+.btn-generate {
+    background-color: #1a73e8;
+    color: white;
+}
+
+.btn-generate:hover {
+    background-color: #1557b0;
+}
+
+.btn-download {
+    background-color: #34a853;
+    color: white;
+    display: none;
+    margin-top: 1rem;
+}
+
+.btn-download:hover {
+    background-color: #2d8e47;
+}
+
+#qrcode {
+    margin: 1.5rem auto;
+    padding: 15px;
+    background: white;
+    display: inline-block;
+    border: 1px solid #eee;
+    border-radius: 8px;
+}
+
+.history-section {
+    margin-top: 2rem;
+    text-align: left;
+    border-top: 1px solid #eee;
+    padding-top: 1.5rem;
+}
+
+.history-section h2 {
+    font-size: 1rem;
+    color: #65676b;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+ul {
+    list-style: none;
+    max-height: 180px;
+    overflow-y: auto;
+}
+
+li {
+    padding: 10px 12px;
+    background: #f7f8fa;
+    margin-bottom: 6px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #4b4d50;
+    border: 1px solid transparent;
+}
+
+li:hover {
+    background: #eef2f3;
+    border-color: #1a73e8;
+    color: #1a73e8;
+}
+
+.btn-clear {
+    background: transparent;
+    color: #d93025;
+    margin-top: 1rem;
+    font-size: 0.85rem;
+    padding: 8px;
+    text-decoration: underline;
+}
+
+.btn-clear:hover {
+    color: #a50e0e;
+}
