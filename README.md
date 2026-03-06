@@ -83,7 +83,7 @@ em qualquer navegador.
 
 # 👨‍💻 Autor
 
-Desenvolvido por **Kevin Santana**
+Desenvolvido por **Kevin de Santana**
 
 GitHub:\
 https://github.com/KevinSan87
